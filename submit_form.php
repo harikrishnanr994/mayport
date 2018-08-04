@@ -73,6 +73,20 @@
     //Additional headers
     $headers .= 'From: Mayport<admin@mayport-heritreat.com>' . "\r\n";
 
+    $to     = 'phacsindevs@gmail.com';
+    $subject= 'Contact Request Submitted';
+
+    $htmlContent = 'Contact Mail';
+
+     //Set content-type header for sending HTML email
+    $headers = "MIME-Version: 1.0" . "\r\n";
+    $headers .= "Content-type:text/html;charset=UTF-8" . "\r\n";
+
+    //Additional headers
+    $headers .= 'From: Mayport<admin@mayport-heritreat.com>' . "\r\n";
+
+    $stat = mail($to,$subject,$htmlContent,$headers);
+    echo($stat);
      //Send email'
     if($stat){
         $status = 'ok';
@@ -83,20 +97,7 @@
 
   }
 
-  $to     = 'phacsindevs@gmail.com';
-  $subject= 'Contact Request Submitted';
 
-  $htmlContent = 'Contact Mail';
-
-   //Set content-type header for sending HTML email
-  $headers = "MIME-Version: 1.0" . "\r\n";
-  $headers .= "Content-type:text/html;charset=UTF-8" . "\r\n";
-
-  //Additional headers
-  $headers .= 'From: Mayport<admin@mayport-heritreat.com>' . "\r\n";
-
-  $stat = mail($to,$subject,$htmlContent,$headers);
-  echo($stat);
 
 
      //Output status
