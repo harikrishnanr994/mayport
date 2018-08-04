@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html>
+
+
+<head>
+		<meta charset="utf-8">
+		<meta name="apple-mobile-web-app-capable" content="yes" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no">
+		<meta name="format-detection" content="telephone=no" />
+
+		<link rel="shortcut icon" href="favicon.ico"/>
+		<link href="css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+		<link href="css/jquery-ui.structure.min.css" rel="stylesheet" type="text/css"/>
+		<link href="css/jquery-ui.min.css" rel="stylesheet" type="text/css"/>
+		<link rel="stylesheet" href="../../../maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+		<link href="css/style.css" rel="stylesheet" type="text/css"/>
+		<title>MayPort</title>
+	</head>
+<body data-color="theme-1">
+
+
+<!-- LOADER -->
+<div class="loading dr-blue-2">
+	<div class="loading-center">
+		<div class="loading-center-absolute">
+			<div class="object object_four"></div>
+			<div class="object object_three"></div>
+			<div class="object object_two"></div>
+			<div class="object object_one"></div>
+		</div>
+	</div>
+</div>
+
+  <!-- HEADER -->
+   <header class="color-1 hovered menu-3">
+   <div class="container">
+   	  <div class="row">
+   	  	 <div class="col-md-12">
+  	  	    <div class="nav">
+   	  	    <a href="index.html" class="logo">
+   	  	    	<img src="img/theme-1/logo_dark.png" alt="lets travel">
+   	  	    </a>
+   	  	    <div class="nav-menu-icon">
+		      <a href="#"><i></i></a>
+		    </div>
+   	  	 	<nav class="menu">
+			  	<ul>
+					<li class="type-1 ">
+						<a href="index.html">home<span class="fa fa-angle-down"></span></a>
+
+					</li>
+					<li class="type-1"><a href="about_us.html">About US<span class="fa fa-angle-down"></span></a>
+
+					</li>
+					<li class="type-1"><a href="services.html">Services<span class="fa fa-angle-down"></span></a>
+
+					</li>
+					<li class="type-1"><a href="methodology.html">Methodology<span class="fa fa-angle-down"></span></a>
+
+
+					</li>
+					<li class="type-1"><a href="gallery.html">Gallery<span class="fa fa-angle-down"></span></a>
+
+					</li>
+                    <li class="type-1 active"><a href="contact.html">Contact Us<span class="fa fa-angle-down"></span></a>
+
+					</li>
+			  	</ul>
+		   </nav>
+		   </div>
+   	  	 </div>
+   	  </div>
+   </div>
+  </header>
+
+<!-- INNER-BANNER -->
+<div class="inner-banner style-5">
+	<img class="center-image" src="img/inner/bg_4.jpg" alt="">
+	<div class="vertical-align">
+		<div class="container">
+			<div class="row">
+				<div class="col-xs-12 col-md-8 col-md-offset-2">
+	  			<ul class="banner-breadcrumb color-white clearfix">
+	  				<li><a class="link-blue-2" href="index.html">home</a> /</li>
+	  				<li><a class="link-blue-2" href="#">Gallery</a> </li>
+
+	  			</ul>
+
+  			</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<!-- SIMPLE-TEXT -->
+<div class="detail-wrapper">
+<!-- CONTACT-FORM -->
+<div class="main-wraper padd-40">
+	<div class="container">
+		<div class="row">
+			<div class="col-xs-12 col-sm-8">
+				<form class="contact-form js-contact-form" action="#" method="POST">
+					<div class="row">
+						<div class="col-xs-12 col-sm-6">
+							<div class="input-style-1 type-2 color-2">
+							  	<input type="text" name="firstname" required placeholder="Enter your first name as per passport">
+							</div>
+						</div>
+						<div class="col-xs-12 col-sm-6">
+							<div class="input-style-1 type-2 color-2">
+							  	<input type="text" name="surname" required placeholder="Enter your surname as per passport">
+							</div>
+						</div>
+						<div class="col-xs-12 col-sm-6">
+							<div class="input-style-1 type-2 color-2">
+							  	<input type="email" name="email" required placeholder="Enter your email">
+							</div>
+						</div>
+						<div class="col-xs-12 col-sm-6">
+							<div class="input-style-1 type-2 color-2">
+							  	<input type="text" name="phone" required placeholder="Enter your Mobile Number">
+							</div>
+						</div>
+						<div class="col-xs-12 col-sm-6">
+							<div class="input-style-1 type-2 color-2">
+							  	<input type="text" name="fromdate" required id="from" placeholder="Enter your Start Date">
+							</div>
+						</div>
+						<div class="col-xs-12 col-sm-6">
+							<div class="input-style-1 type-2 color-2">
+							  	<input type="text" name="todate" required id="to" placeholder="Enter your End Date">
+							</div>
+						</div>
+						<div class="col-xs-12 col-sm-6">
+							<div class="drop-wrap drop-wrap-s-3 color-2">
+							  	<div >
+										<select class="drop" name="purpose_of_visit">
+												<option value="" disabled selected>Purpose of Visit</option>
+											  <option value="leisure_tour">Leisure and Tour</option>
+											  <option value="treatment_leisure">Treatment and Leisure</option>
+											</select>
+							   	</div>
+							</div>
+						</div>
+						<div class="col-xs-12">
+							<textarea class="area-style-1 color-1" name="messages" required placeholder="Enter your Message"></textarea>
+							<button type="submit" class="c-button bg-dr-blue-2 hv-dr-blue-2-o"><span>Submit Now</span></button>
+						</div>
+						<input type="hidden" name="fields[code]" value="56345678safs_">
+					</div>
+				</form>
+				<div class="ajax-result">
+                  <div class="success"></div>
+                  <div class="error"></div>
+                </div>
+                <div class="ajax-loader"></div>
+			</div>
+			<div class="col-xs-12 col-sm-4">
+
+				<div class="contact-info">
+					<h4 class="color-dark-2"><strong>contact info</strong></h4>
+					<div class="contact-line color-grey-3"><img src="img/phone_icon_2_dark.png" alt="">Phone: <a class="color-dark-2" href="tel:+914842984002">+91 484 298 4002</a></div>
+					<div class="contact-line color-grey-3"><img src="img/mail_icon_b_dark.png" alt="">Email us: <a class="color-dark-2 tt" href="#">info@mayport.com</a></div>
+					<div class="contact-line color-grey-3"><img src="img/loc_icon_dark.png" alt="">Address:<span><p class="color-dark-2 tt" style="margin-left:120px;font-weight: 700;">Building No. #1/19-A1<br>
+Periyar Nagar Road<br>
+Bylane 6, Pulinchode<br>
+Aluva – 683 106<br>
+Ernakulam (Cochin)<br>
+Kerala India</p></span></div>
+				</div>
+				<div class="contact-socail">
+					<a class="color-grey-3 link-dr-blue-2" href="#"><i class="fa fa-facebook"></i></a>
+					<a class="color-grey-3 link-dr-blue-2" href="#"><i class="fa fa-twitter"></i></a>
+					<a class="color-grey-3 link-dr-blue-2" href="#"><i class="fa fa-skype"></i></a>
+					<a class="color-grey-3 link-dr-blue-2" href="#"><i class="fa fa-google-plus"></i></a>
+					<a class="color-grey-3 link-dr-blue-2" href="#"><i class="fa fa-pinterest-p"></i></a>
+					<a class="color-grey-3 link-dr-blue-2" href="#"><i class="fa fa-instagram"></i></a>
+					<a class="color-grey-3 link-dr-blue-2" href="#"><i class="fa fa-behance"></i></a>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+</div><!-- FOOTER -->
+<footer class="bg-dark type-2">
+    	<div class="container">
+    		<div class="row">
+    			<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+    				<div class="footer-block">
+    					<img src="img/theme-1/logo.png" alt="" class="logo-footer">
+    					<div class="f_text color-grey-7">At Mayport Heritreat, we aim to offer reliable, high quality, qualified, inexpensive and timely access to health services and homely atmosphere with natural beauty of GOD’s own country.</div>
+    					<div class="footer-share">
+    						<a href="#"><span class="fa fa-facebook"></span></a>
+    						<a href="#"><span class="fa fa-twitter"></span></a>
+    						<a href="#"><span class="fa fa-google-plus"></span></a>
+    						<a href="#"><span class="fa fa-pinterest"></span></a>
+    					</div>
+    				</div>
+    			</div>
+    			<div class="col-lg-3 col-md-3 col-sm-6 col-sm-6 no-padding">
+				   <div class="footer-block">
+						<h6>Travel News</h6>
+						<div class="f_news clearfix">
+							<a class="f_news-img black-hover" href="#">
+								<img class="img-responsive" src="img/home_6/news_1.jpg" alt="">
+								<div class="tour-layer delay-1"></div>
+							</a>
+							<div class="f_news-content">
+								<a class="f_news-tilte color-white link-red" href="#">amazing place</a>
+								<span class="date-f">Mar 18, 2015</span>
+								<a href="#" class="r-more">read more</a>
+							</div>
+						</div>
+						<div class="f_news clearfix">
+							<a class="f_news-img black-hover" href="#">
+								<img class="img-responsive" src="img/home_6/news_2.jpg" alt="">
+								<div class="tour-layer delay-1"></div>
+							</a>
+							<div class="f_news-content">
+								<a class="f_news-tilte color-white link-red" href="#">amazing place</a>
+								<span class="date-f">Mar 18, 2015</span>
+								<a href="#" class="r-more">read more</a>
+							</div>
+						</div>
+						<div class="f_news clearfix">
+							<a class="f_news-img black-hover" href="#">
+								<img class="img-responsive" src="img/home_6/news_1.jpg" alt="">
+								<div class="tour-layer delay-1"></div>
+							</a>
+							<div class="f_news-content">
+								<a class="f_news-tilte color-white link-red" href="#">amazing place</a>
+								<span class="date-f">Mar 18, 2015</span>
+								<a href="#" class="r-more">read more</a>
+							</div>
+						</div>
+				   </div>
+				</div>
+    			<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+    			   <div class="footer-block">
+                     <h6>Tags:</h6>
+    			      <a href="#" class="tags-b">flights</a>
+    			      <a href="#" class="tags-b">traveling</a>
+    			      <a href="#" class="tags-b">sale</a>
+    			      <a href="#" class="tags-b">cruises</a>
+    			      <a href="#" class="tags-b">cars</a>
+    			      <a href="#" class="tags-b">hotels</a>
+    			      <a href="#" class="tags-b">tours</a>
+    			      <a href="#" class="tags-b">booking</a>
+    			      <a href="#" class="tags-b">countries</a>
+				   </div>
+				</div>
+				<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                   <div class="footer-block">
+                     <h6>Contact Info</h6>
+                       <div class="contact-info">
+                        <div class="contact-line color-grey-3"><i class="fa fa-map-marker"></i><span>MayPort</span></div>
+						<div class="contact-line color-grey-3"><i class="fa fa-phone"></i><a href="tel:+914842984002">+91 484 298 4002</a></div>
+						<div class="contact-line color-grey-3"><i class="fa fa-envelope-o"></i><a href="mailto:">mayport@mail.com</a></div>
+						<div class="contact-line color-grey-3"><i class="fa fa-globe"></i><a href="#">mayport.com</a></div>
+
+					</div>
+				   </div>
+				</div>
+    		</div>
+    	</div>
+    	<div class="footer-link bg-black">
+    	  <div class="container">
+    	  	<div class="row">
+    	  		<div class="col-md-12">
+    	  		    <div class="copyright">
+						<span>&copy; 2018 All rights reserved.</span>
+					</div>
+    	  			<ul>
+						<li><a class="link-aqua" href="index.html">Home </a></li>
+						<li><a class="link-aqua" href="about_us.html">About Us</a></li>
+						<li><a class="link-aqua" href="services.html">Services </a></li>
+						<li><a class="link-aqua" href="methodology.html">Methodology</a></li>
+						<li><a class="link-aqua" href="gallery.html">Gallery</a></li>
+						<li><a class="link-aqua" href="contact.html"> Contact Us</a></li>
+					</ul>
+    	  		</div>
+    	  	</div>
+    	  </div>
+    	</div>
+    </footer>
+   	  	 <div class="col-md-12">
+  	  	    <div class="nav">
+   	  	    <a href="index.html" class="logo">
+   	  	    	<img src="img/theme-1/logo_dark.png" alt="lets travel">
+   	  	    </a>
+   	  	    <div class="nav-menu-icon">
+		      <a href="#"><i></i></a>
+		    </div>
+   	  	 	<nav class="menu">
+			  	<ul>
+					<li class="type-1 active">
+						<a href="index.html">home<span class="fa fa-angle-down"></span></a>
+
+					</li>
+					<li class="type-1"><a href="about_us.html">About US<span class="fa fa-angle-down"></span></a>
+
+					</li>
+					<li class="type-1"><a href="services.html">Services<span class="fa fa-angle-down"></span></a>
+
+					</li>
+					<li class="type-1"><a href="methodology.html">Methodology<span class="fa fa-angle-down"></span></a>
+
+
+					</li>
+					<li class="type-1"><a href="gallery.html">Gallery<span class="fa fa-angle-down"></span></a>
+
+					</li>
+                    <li class="type-1"><a href="contact.html">Contact Us<span class="fa fa-angle-down"></span></a>
+
+					</li>
+			  	</ul>
+		   </nav>
+		   </div>
+   	  	 </div>
+   	  </div>
+   </div>
+  </header>
+
+
+<script src="js/jquery-2.1.4.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/jquery-ui.min.js"></script>
+<script src="js/idangerous.swiper.min.js"></script>
+<script src="js/jquery.viewportchecker.min.js"></script>
+<script src="js/isotope.pkgd.min.js"></script>
+<script src="js/jquery.mousewheel.min.js"></script>
+<script src="js/all.js"></script>
+<script>
+$( function() {
+var dateFormat = "mm/dd/yy",
+	from = $( "#from" )
+		.datepicker({
+			defaultDate: "+1w",
+			changeMonth: true,
+			numberOfMonths: 1
+		})
+		.on( "change", function() {
+			to.datepicker( "option", "minDate", getDate( this ) );
+		}),
+	to = $( "#to" ).datepicker({
+		defaultDate: "+1w",
+		changeMonth: true,
+		numberOfMonths: 1
+	})
+	.on( "change", function() {
+		from.datepicker( "option", "maxDate", getDate( this ) );
+	});
+
+function getDate( element ) {
+	var date;
+	try {
+		date = $.datepicker.parseDate( dateFormat, element.value );
+	} catch( error ) {
+		date = null;
+	}
+
+	return date;
+}
+} );
+</script>
+
+</body>
+
+
+</html>
