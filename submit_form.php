@@ -23,8 +23,7 @@
     $to     = 'phacsindevs@gmail.com';
     $subject= 'Contact Request Submitted';
 
-    $htmlContent = '
-    <h4>Contact request has submitted at CodexWorld, details are given below.</h4>
+    $htmlContent = '<h4>Contact request has submitted at CodexWorld, details are given below.</h4>
 
         <div>
             <p>FirstName:'.$firstname.'</p>
@@ -62,9 +61,7 @@
         </div>
         <div>
             <p>Tourism Package:'.$tourism_package.'</p>
-        </div>
-
-    ';
+        </div>';
 
      //Set content-type header for sending HTML email
     $headers = "MIME-Version: 1.0" . "\r\n";
@@ -85,7 +82,7 @@
     //Additional headers
     $headers .= 'From: Mayport<admin@mayport-heritreat.com>' . "\r\n";
 
-    $stat = mail($to,$subject,$htmlContent,$headers);
+    $stat = @mail($to,$subject,$htmlContent,$headers);
     echo($stat);
      //Send email'
     if($stat){

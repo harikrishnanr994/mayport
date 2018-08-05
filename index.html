@@ -1089,8 +1089,8 @@ function submitContactForm(){
     }else{
         $.ajax({
             type:'POST',
-            url:'submit_form.php',
-            data:'contactFrmSubmit=1&firstname='+firstname+'&surname='+surname+'&email='+email+'&phone='+phone+'&address1='+address1+'&address2='+address2+'&state='+state+'&country='+country+'&fromdate='+fromdate+'&todate='+todate+'&type_of_treatement='+type_of_treatement+'&tourism_package='+tourism_package,
+            url:'mail.php',
+            data:'firstname='+firstname+'&surname='+surname+'&email='+email+'&phone='+phone+'&address1='+address1+'&address2='+address2+'&state='+state+'&country='+country+'&fromdate='+fromdate+'&todate='+todate+'&type_of_treatement='+type_of_treatement+'&tourism_package='+tourism_package,
             beforeSend: function () {
                 $('.submitBtn').attr("disabled","disabled");
                 $('.modal-body').css('opacity', '.5');
