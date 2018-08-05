@@ -46,7 +46,7 @@ if(isset($_POST['email'])) {
     $type_of_treatement  = $_POST['type_of_treatement'];
     $tourism_package= $_POST['tourism_package'];
 
-	$url = $_POST['url']."?success=1"; // required
+	  $url = $_POST['url']."?success=1"; // required
 
     $error_message = "";
     $email_exp = '/^[A-Za-z0-9._%-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,4}$/';
